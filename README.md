@@ -9,7 +9,7 @@ Download sourcecode:
    git branch [tên_thành_viên]
    git checkout [tên_thành_viên]
 4. Push code to github
-   git add -A<br/>
+   git add -A <br />
    git commit -m "[message]"
    git push --set-upstream origin [tên_branch]
    git push
