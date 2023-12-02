@@ -3,7 +3,7 @@
 Download sourcecode:
 1. Download git
 2. Pull request
-    git pull https://github.com/DinhThanhRN/MATLAB_project.git
+    git pull https://github.com/thanhtd273/MATLAB_project.git
 3. Create branch
     git branch [tên_thành_viên]
    <br />
@@ -18,7 +18,7 @@ Download sourcecode:
     git push
 
 Example:
-    git pull https://github.com/DinhThanhRN/MATLAB_project.git <br />
+    git pull https://github.com/thanhtd273/MATLAB_project.git <br />
     git branch thanh <br />
     git checkout thanh <br />
 
