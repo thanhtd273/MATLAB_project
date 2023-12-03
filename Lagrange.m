@@ -1,4 +1,7 @@
 function result = Lagrange(xa, ya)
+    if (length(xa) ~= length(ya))
+        error('Dữ liệu x và y không cùng kích thước!')
+    end
     syms x;
     n = length(xa);
     sum = 0;
