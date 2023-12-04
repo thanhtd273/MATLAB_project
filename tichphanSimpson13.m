@@ -1,4 +1,4 @@
-function y = tichphanSimpson(fx, a, b, N)
+function y = tichphanSimpson13(fx, a, b, N)
     h = (b - a) / N;
     y = h/3 * (fx(a) + fx(b));
 
