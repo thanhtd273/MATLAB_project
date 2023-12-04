@@ -2,13 +2,13 @@
 
 Download sourcecode:
 1. Download git
-2. Pull request
+2. Pull request <br/>
     git pull https://github.com/thanhtd273/MATLAB_project.git
-3. Create branch
+3. Create branch <br/>
     git branch [tên_thành_viên]
    <br />
     git checkout [tên_thành_viên]
-5. Push code to github
+5. Push code to github <br/>
     git add -A
     <br />
     git commit -m "[message]"
