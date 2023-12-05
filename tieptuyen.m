@@ -22,8 +22,6 @@ while true
     i = i + 1;
     solanlap = solanlap + 1;
 end
-nghiem = ketqua
-%fprintf('Nghiem gan dung: %0.4f\n', nghiem);
-%fprintf('So lan lap: %0.f', solanlap);
+nghiem = ketqua;
 end
 
