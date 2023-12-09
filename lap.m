@@ -15,5 +15,4 @@ while true
     i = i + 1;   
 end
 nghiem = double(x(i));
->>>>>>> kiet
 end

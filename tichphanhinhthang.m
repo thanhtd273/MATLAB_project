@@ -1,4 +1,7 @@
 function y = tichphanhinhthang(fx, a, b, N)
+    if (a == b)
+        y = 0;
+    end
     h = (b - a)/N;
     y = h/2 * (fx(a) + fx(b));
     

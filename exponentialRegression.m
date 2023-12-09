@@ -11,9 +11,7 @@ function fx = exponentialRegression(x, y )
 
     B = [sum(log(y)) sum(x .* log(y))];
     Y = B/A;
-    disp(Y);
     a = exp(Y(1)); b = Y(2);
-    disp(a, b);
     if (isnan(a) || isinf(a) || isnan(b) || isinf(b)) 
       error('Exponential regression error: a, b is either NaN or Inf!')
     end
@@ -21,6 +19,4 @@ function fx = exponentialRegression(x, y )
     a = num2str(a);
     b = num2str(b);
     fx = str2func(['@(x)' char(a * exp(b * x))]);
-    disp('Hàm mũ: ')
-    disp(fx);
 end
